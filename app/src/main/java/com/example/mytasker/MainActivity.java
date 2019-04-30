@@ -49,4 +49,13 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
+    fun newEvent(view: View) {
+        val intent = Intent(this, DisplayNewEventActivity::class.java);
+        startActivity(intent);
+    }
+
+
+
 }
